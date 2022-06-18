@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bacground {
+    background-image: url(img/angryimg.png);
+    background-size: cover;
+    width: 100%;
+    height: 121vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 70%;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+}
+
+.contenth11 {
+    margin: 20px 0px;
+    font-family: 'Great Vibes', cursive;
+}
+.content1 {
+    width: 50%;
+    padding: 0px 15px;
+    margin: 20px 0px;
+}
+
+.contenth12 {
+    margin: 20px 0px;
+    font-family: 'Great Vibes', cursive;
+}
+.content2 {
+    text-align: center;
+    width: 50%;
+    height: 450px;
+    padding: 0px 15px;
+    margin: 20px 0px;
+}
+
+.img {
+    background-image: url(img/images.jfif);
+    background-position: center;
+    border-radius: 100%;
+    background-size: 400px;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+}
+
+.text1 {
+    font-family: 'Anek Latin', sans-serif;
+    line-height: 25px;
+}
+.text2 {
+    font-family: 'Anek Latin', sans-serif;
+    line-height: 25px;
+}
+
+@media (min-width: 869px) {
+    .content1 {
+        border-right: 2px solid white;
+    }
+    .bacground {
+        height: 100vh;
+    }
+}
+@media (max-width: 869px) {
+    .content1 {
+        width: 90%;
+    }
+    .content2 {
+        border-top: 2px solid white;
+        width: 53vw;
+        margin: 0px 10%;
+    }
+    .content {
+        flex-direction: column;
+    }
+    .text1 {
+        text-align: center;
+    }
+    h1 {
+        text-align: center;
+    }
+}
+@media (max-width: 753px) {
+    .bacground {
+        height: 150vh;
+    }
+    .content2 {
+        border-top: 2px solid white;
+        width:70%;
+        font-size: 15px;
+        text-align: center;
+    }
+    .img {
+        width: 100px;
+        height: 100px;
+    }
+}
